@@ -1,0 +1,190 @@
+/* body {
+    background: #ebcf34;
+} */
+
+body {
+    background-color: #efd330;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+
+/* navbar */
+.topnav {
+    overflow: hidden;
+    margin-top: 5%;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px 29px;
+    border-radius: 12px;
+}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #16a873;
+    color: rgb(0, 0, 0);
+    padding: 15px 29px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 5rem;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.form {
+    background-color: #16a873;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  }
+  
+  .title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  .signupFrm {
+    height: 100px;
+    position: relative;
+  }
+
+  .inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+
+  .inputContainer-box {
+    position: relative;
+    height: 80px;
+    width: 90%;
+    margin-bottom: 12px;
+    margin-bottom: 6rem;
+  }
+
+  .input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
+  
+  /* Hide the placeholder texts (a) */
+  
+  ::placeholder {
+    color: transparent;
+  }
+
+  .label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: #16a873;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+  }
+
+  .input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #efd330;
+  }
+
+  .input:focus {
+    border: 2px solid #efd330;
+  }
+
+  .input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .signupFrm p {
+    color: white;
+  }
+
+#bnt {
+    background-color: #efd330;
+    border: none;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    padding: 15px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#bnt:hover {
+    background-color: #595954; 
+    color: white;
+}
+
+.text1 h5{
+    text-align: left;
+}
+
+.container1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+.text1 {
+  padding: auto;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  font-size: 20px;
+}
+
+.text1 h5 {
+  text-align: justify;
+}
+
+.img1 {
+  width: 90%;
+}
